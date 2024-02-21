@@ -55,6 +55,30 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
 
+.contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #F8EF3C;
+}
+.contact-form-area h1, .contact-form-area span{
+  font-size: 15px;
+  font-family: "Raleway", sans-serif;
+}
+
+@media (max-width: 490px) {
+  .contact-form-area h1, .contact-form-area span {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 340px) {
+  .contact-form-area h1, .contact-form-area span {
+    font-size: 9px;
+  }
+}
+
 .whatsapp {
   position:fixed;
   width:60px;
